@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+        如果 webpack output 配置里面配置了 publicPath，当前项目配置的是 http://xizhou.com,那么打包的时候，script 标签中 src 前面都会自动给加上 http://xizhou.com 的前缀
+     -->
+
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- 此处是 webpack 配置了 externals, 不打包 第三方库，所以直接引用 CDN  -->
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.6/axios.min.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+</body>
+
+</html>

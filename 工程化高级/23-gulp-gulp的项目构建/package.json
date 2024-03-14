@@ -1,0 +1,25 @@
+{
+  "name": "23-gulp-project-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp buildTask",
+    "serve": "gulp serveTask",
+    "build2": "gulp --require @esbuild-kit/cjs-loader -f gulpfile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-less": "^5.0.0",
+    "gulp-terser": "^2.1.0"
+  }
+}

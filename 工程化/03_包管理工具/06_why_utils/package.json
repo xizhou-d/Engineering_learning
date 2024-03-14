@@ -1,0 +1,11 @@
+{
+  "name": "yangkun1994_test_package",
+  "version": "1.0.0",
+  "description": "yangkun's first npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yangkun",
+  "license": "MIT"
+}

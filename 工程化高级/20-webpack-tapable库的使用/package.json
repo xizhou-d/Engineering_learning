@@ -1,0 +1,5 @@
+{
+	"devDependencies": {
+		"tapable": "^2.2.1"
+	}
+}

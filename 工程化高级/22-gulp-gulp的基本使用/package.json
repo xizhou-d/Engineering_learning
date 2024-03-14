@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "start": "gulp --gulpfile gulpfile.js"
+    },
+	"devDependencies": {
+		"@babel/core": "^7.22.8",
+		"@babel/preset-env": "^7.22.7",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-terser": "^2.1.0"
+	}
+}
