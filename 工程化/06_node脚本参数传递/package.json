@@ -1,0 +1,37 @@
+{
+  "name": "06_node脚本参数传递",
+  "version": "1.0.0",
+  "description": "Node.js 脚本参数传递完全指南 - 包括命令行参数、环境变量等各种方式的示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:args": "node 05_npm_scripts.js",
+    "test:env": "NODE_ENV=production PORT=8080 node 05_npm_scripts.js",
+    "test:combined": "NODE_ENV=production node 05_npm_scripts.js --verbose --name TestApp",
+    "example": "node 07_complete_example.js",
+    "example:prod": "cross-env NODE_ENV=production node 07_complete_example.js",
+    "example:config": "node 07_complete_example.js --config example-config.json",
+    "cross-env:demo": "node 09_cross_env_explained.js",
+    "cross-env:test": "cross-env NODE_ENV=production PORT=8080 DEBUG=true node 09_cross_env_explained.js"
+  },
+  "keywords": [
+    "node",
+    "arguments",
+    "parameters",
+    "cli",
+    "command-line",
+    "argv",
+    "env"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "minimist": "^1.2.8",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
+  }
+}

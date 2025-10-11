@@ -1,0 +1,20 @@
+{
+  "name": "ConfigApp",
+  "port": 4000,
+  "env": "staging",
+  "host": "0.0.0.0",
+  "output": "./build",
+  "debug": false,
+  "verbose": true,
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "mydb"
+  },
+  "features": {
+    "caching": true,
+    "logging": true,
+    "monitoring": false
+  }
+}
+
